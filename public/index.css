@@ -1,0 +1,93 @@
+@import "https://fonts.googleapis.com/css?family=Ubuntu";
+html{
+	font-family: "Ubuntu";
+}
+body{
+	margin:0px;
+	background-color: #fffffc;
+}
+.head{
+	font-size: 35px;
+	color: #7fdeff;
+	background-color: #36454f;
+	padding: 20px;
+}
+.titletoggle{
+	font-size: 35px;
+	color: #7fdeff;
+	transition: color 1s, font-size 1s;
+}
+.titletoggle:hover{
+	color: #98ce00;
+	font-size: 40px;
+}
+.path{
+	font-size: 15px;
+	margin-bottom: : 8px;
+	padding:8px;
+	background-image: linear-gradient(to right,#7fdeff, #00cccc);
+}
+.buttons{
+	display: flex;
+	flex-wrap: wrap;
+}
+button{
+	text-decoration: none;
+	text-align: left;
+	font-size: 75%;
+	text-overflow: wrap;
+	width: 45vw;
+	border: 5px solid #0a2239;
+	padding: 20px;
+	padding-left: 10px;
+	color: #7fdeff;
+	background-color: #36454f;
+	margin: 8px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+.aboutheader{
+	background-color: #36454f;
+	font-size: 30px;
+	color: #7fdeff;
+}
+.special{
+	font-style: italic;
+	color: #98ce00;
+}
+.aboutpara{
+
+}
+@media screen and (min-width: 768px)
+{
+	.ContentManager{
+		display: flex;
+		height: 100vh;
+	}
+	.head{
+		padding-top: 45vh;
+	}
+	.path{
+		border-radius: 30px;
+		width: 50vw;
+	}
+	.titletoggle:{
+
+	}
+	.titletoggle:hover{
+
+	}
+	.aboutheader{
+		border-top-right-radius: 30px;
+		border-bottom-right-radius: 30px;
+		border-bottom-left-radius: -30px;
+		display: inline-block;
+		padding-right: 8px;
+	}
+	button{
+		text-align: center;
+		font-size: 100%;
+		width: 20vw;
+		height: 20vw;
+	}
+}

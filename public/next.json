@@ -1,0 +1,25 @@
+{
+	"/":[
+		"Linguistics"
+	],
+	"Linguistics":[
+		"PLO"
+	],
+	"PLO":[
+		"PLO11",
+		"PLO12"
+	],
+	"PLO11":[
+		"BariaiSquares.pdf",
+		"CheesyMalagasy.pdf",
+		"TheNorwegianFamily.pdf",
+		"TiwaSentences.pdf",
+		"VietNam.pdf"
+	],
+	"PLO12":[
+		"BronkHorst.pdf",
+		"CopticStress.pdf",
+		"DailyBasque.pdf",
+		"NotAmharic.pdf"
+	]
+}
