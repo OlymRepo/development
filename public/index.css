@@ -50,13 +50,19 @@ button{
 	background-color: #36454f;
 	font-size: 30px;
 	color: #7fdeff;
+	margin-bottom: 8px;
+}
+.aboutpara{
+	color: #0a2239;
+	margin-bottom: 8px;
 }
 .special{
 	font-style: italic;
 	color: #98ce00;
 }
 .aboutpara{
-
+	margin-right: 8px;
+	margin-left: 8px;
 }
 @media screen and (min-width: 768px)
 {
@@ -83,6 +89,11 @@ button{
 		border-bottom-left-radius: -30px;
 		display: inline-block;
 		padding-right: 8px;
+	}
+	.aboutpara{
+		font-size: 20px;
+		margin-left: 10vw;
+		margin-right: 10vw;
 	}
 	button{
 		text-align: center;

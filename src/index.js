@@ -112,6 +112,23 @@ class About extends React.Component
 					OlymRepo.me is a collection of Olympiad 
 					problems from various competitions, countries and years.
 					It was designed in React JS and is my first real life project.
+					OlymRepo.me is a work-in-progress.
+					Currently I plan on adding problems related to the Linguistics
+					Olympiad to the repository.
+				</div>
+				<div className = "aboutheader">
+					Linguistics Olympiad
+				</div>
+				<div className = "aboutpara">
+					I expect to add problems from the following competitions.
+					<ul>
+						<li>The International Linguistics Olympiad</li>
+						<li>The Panini Linguistics Olympiad</li>
+						<li>The North American Computational Linguistics Olympiad</li>
+						<li>The All Ireland Linguistics Olympiad</li>
+						<li>The United Kingdom Linguistics Olympiad</li>
+						<li>The Australian Computational Linguistics Olympiad</li>
+					</ul>
 				</div>
 			</div>
 		);
