@@ -130,6 +130,26 @@ class About extends React.Component
 						<li>The Australian Computational Linguistics Olympiad</li>
 					</ul>
 				</div>
+				<div className = "aboutheader">
+					Contact Me
+				</div>
+				<div className = "aboutpara">
+					If there is any specific contest and/or problem that you think
+					should be added to this repository,feel free to email me 
+					at <a href = "mailto:umang26112003@gmail.com">umang26112003@gmail.com
+					</a> and I shall try to get it added as soon as possible.
+					<br />
+					Check out the <a href = "https://github.com/OlymRepo/">webapp's GitHub page
+					</a> or the <a href = "https://github.com/ZeroDawn0D/">developer's GitHub page</a>
+				</div>
+
+				<div className = "aboutfooter">
+					<span className = "special">Umang Majumder &#169; 2020.
+					<br />
+					The rights to all problems belong to their respective
+					authors, organizations or countries.
+					</span>
+				</div>
 			</div>
 		);
 	}

@@ -9,7 +9,8 @@ var next = {
 	"PLO":[
 		"Back",
 		"PLO11",
-		"PLO12"
+		"PLO12",
+		"PLO13"
 	],
 	"PLO11":[
 		"Back",
@@ -25,6 +26,18 @@ var next = {
 		"CopticStress.pdf",
 		"DailyBasque.pdf",
 		"NotAmharic.pdf"
+	],
+	"PLO13":[
+		"Back",
+		"AchuiFamily.pdf",
+		"AkhamShop.pdf",
+		"DaysInJapanese.pdf",
+		"GiggleMeThis.pdf",
+		"HebrewPronounsJr.pdf",
+		"HebrewPronounsSr.pdf",
+		"SimteVerbs.pdf",
+		"TangkhulAdj.pdf",
+		"WhatIsInAQuestion.pdf"
 	]
 }
 export{next};
