@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## IMPORTANT NOTE
+
+On running `npm run build`, the .css and .js files in ./build/index.html may be generated with an absoulute path.
+
+Edit `/[PATH]` to `./[PATH]` or `[PATH]` in the `<script>` and `<link>` tag to continue.
+
 ## Available Scripts
 
 In the project directory, you can run:
