@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {next} from './info.js';
+import {next, Emoji} from './info.js';
 
 var base = 'https://raw.githubusercontent.com/OlymRepo/pdf_files';
 
@@ -29,16 +29,12 @@ class Navigator extends React.Component
 	handleClick = data => e =>
 	{
 		e.preventDefault();
-		console.log("CLICKED: " + data);
-		console.log("Current Path: " + this.state.path);
 		if(data==="Back")
 		{
 			this.setState({path:this.state.path.substring(0,this.state.path.lastIndexOf('/'))}, () =>
 			{
-				console.log("Updated Path: " + this.state.path);
 				this.setState({ node:this.state.path.substring(this.state.path.lastIndexOf('/')+1,this.state.path.length)},() =>
 				{
-					console.log("prev: " + this.state.node);
 					var temp = [];
 					this.setState({children:next[this.state.node]}, () =>
 					{
@@ -57,7 +53,6 @@ class Navigator extends React.Component
 		}
 		else if(data.substring(data.length-3,data.length) ==="pdf")
 		{
-			console.log("PDF Detected");
 			window.open(base + this.state.path + '/' + data);
 		}
 		else
@@ -66,7 +61,6 @@ class Navigator extends React.Component
 			{
 				this.setState({path:this.state.path + '/' + this.state.node}, () =>
 				{
-					console.log("Updated Path: "+ this.state.path);
 					var temp = [];
 					this.setState({children:next[this.state.node]}, () =>
 					{
@@ -122,12 +116,12 @@ class About extends React.Component
 				<div className = "aboutpara">
 					I expect to add problems from the following competitions.
 					<ul>
-						<li>The International Linguistics Olympiad</li>
-						<li>The Panini Linguistics Olympiad</li>
-						<li>The North American Computational Linguistics Olympiad</li>
-						<li>The All Ireland Linguistics Olympiad</li>
-						<li>The United Kingdom Linguistics Olympiad</li>
-						<li>The Australian Computational Linguistics Olympiad</li>
+						<li>The International Linguistics Olympiad(<Emoji name = "world" />)</li>
+						<li>The Panini Linguistics Olympiad(<Emoji name = "india" />)</li>
+						<li>The North American Computational Linguistics Olympiad(<Emoji name = "usa" />+<Emoji name = "canada" />)</li>
+						<li>The All Ireland Linguistics Olympiad(<Emoji name = "ireland" />)</li>
+						<li>The United Kingdom Linguistics Olympiad(<Emoji name = "uk" />)</li>
+						<li>The Australian Computational Linguistics Olympiad(<Emoji name = "australia" />)</li>
 					</ul>
 				</div>
 				<div className = "aboutheader">
@@ -189,6 +183,8 @@ class ContentManager extends React.Component
 		return(
 			<div className = "ContentManager">
 				<div className = "head">
+					<img src = "./logo512.png" alt = "logo" width = "128" height = "128" />
+					<br />
 					<span className = "titletoggle" onClick = {this.handleClick}>OlymRepo.me</span>
 				</div>
 				{this.state.display}
@@ -196,7 +192,4 @@ class ContentManager extends React.Component
 		);
 	}
 }
-const element = <ContentManager />
-
-ReactDOM.render(element, document.getElementById('root'));
-console.log('testing');
+ReactDOM.render(<ContentManager />, document.getElementById('root'));

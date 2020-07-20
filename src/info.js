@@ -1,9 +1,11 @@
+import React from 'react';
 var next = {
 	"master":[
 		"Linguistics"
 	],
 	"Linguistics":[
 		"Back",
+		"IOL",
 		"PLO"
 	],
 	"PLO":[
@@ -38,6 +40,61 @@ var next = {
 		"SimteVerbs.pdf",
 		"TangkhulAdj.pdf",
 		"WhatIsInAQuestion.pdf"
+	],
+	"IOL":[
+		"Back",
+		"IOL03",
+		"IOL04",
+		"IOL05",
+		"IOL06",
+		"IOL07"
+	],
+	"IOL03":[
+		"Back",
+		"IOL03Indiv.pdf",
+		"IOL03Team.pdf"
+	],
+	"IOL04":[
+		"Back",
+		"IOL04Indiv.pdf",
+		"IOL04Team.pdf"
+	],
+	"IOL05":[
+		"Back",
+		"IOL05Indiv.pdf",
+		"IOL05Team.pdf"
+	],
+	"IOL06":[
+		"Back",
+		"IOL06Indiv.pdf" // no team
+	],
+	"IOL07":[
+		"Back",
+		"IOL07Indiv.pdf",
+		"IOL07Team.pdf"
 	]
 }
-export{next};
+
+//------------------------------------------------------------
+
+
+class Emoji extends React.Component{
+	icons = {
+		world: "🌍",
+		india: "🇮🇳",
+		usa: "🇺🇸",
+		canada: "🇨🇦",
+		ireland: "🇮🇪",
+		uk: "🇬🇧",
+		australia: "🇦🇺"
+	};
+	render()
+	{
+		return(
+			<span type = "img" aria-label = {this.props.name}>
+				{this.icons[this.props.name]}
+			</span>
+		);
+	}
+}
+export{next, Emoji};

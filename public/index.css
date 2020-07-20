@@ -12,6 +12,12 @@ body{
 	background-color: #36454f;
 	padding: 20px;
 }
+.head>img{
+	display: none;
+}
+.head>br{
+	display:none;
+}
 .titletoggle{
 	font-size: 35px;
 	color: #7fdeff;
@@ -87,7 +93,18 @@ a:hover{
 		min-height: 100vh;
 	}
 	.head{
-		padding-top: 45vh;
+		text-align: center;
+		padding-top: 35vh;
+	}
+	img{
+		padding: 0px;
+		margin: 0px;
+	}
+	.head>br{
+		display: inline;
+	}
+	.head>img{
+		display: inline;
 	}
 	.path{
 		border-radius: 30px;
