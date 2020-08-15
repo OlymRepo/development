@@ -43,11 +43,26 @@ var next = {
 	],
 	"IOL":[
 		"Back",
+		"IOLSamples.pdf",
 		"IOL03",
 		"IOL04",
 		"IOL05",
 		"IOL06",
-		"IOL07"
+		"IOL07",
+		"IOL08",
+		"IOL09",
+		"IOL08",
+		"IOL09",
+		"IOL10",
+		"IOL11",
+		"IOL12",
+		"IOL13",
+		"IOL14",
+		"IOL15",
+		"IOL16",
+		"IOL17",
+		"IOL18",
+		"IOL19"
 	],
 	"IOL03":[
 		"Back",
@@ -72,7 +87,67 @@ var next = {
 		"Back",
 		"IOL07Indiv.pdf",
 		"IOL07Team.pdf"
-	]
+	],
+	"IOL08":[
+		"Back",
+		"IOL08Indiv.pdf",
+		"IOL08Team.pdf"
+	],
+	"IOL09":[
+		"Back",
+		"IOL09Indiv.pdf",
+		"IOL09Team.pdf"
+	],
+	"IOL10":[
+		"Back",
+		"IOL10Indiv.pdf",
+		"IOL10Team.pdf"
+	],
+	"IOL11":[
+		"Back",
+		"IOL11Indiv.pdf",
+		"IOL11Team.pdf"
+	],
+	"IOL12":[
+		"Back",
+		"IOL12Indiv.pdf",
+		"IOL12Team.pdf"
+	],
+	"IOL13":[
+		"Back",
+		"IOL13Indiv.pdf",
+		"IOL13Team.pdf"
+	],
+	"IOL14":[
+		"Back",
+		"IOL14Indiv.pdf",
+		"IOL14Team.pdf"
+	],
+	"IOL15":[
+		"Back",
+		"IOL15Indiv.pdf",
+		"IOL15Team.pdf"
+	],
+	"IOL16":[
+		"Back",
+		"IOL16Indiv.pdf",
+		"IOL16Team.pdf"
+	],
+	"IOL17":[
+		"Back",
+		"IOL017Indiv.pdf",
+		"IOL17Team.pdf"
+	],
+	"IOL18":[
+		"Back",
+		"IOL18Indiv.pdf",
+		"IOL18Team.pdf"
+	],
+	"IOL19":[
+		"Back",
+		"IOL19Indiv.pdf",
+		"IOL19Team.pdf"
+	],
 }
 
 //------------------------------------------------------------

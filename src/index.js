@@ -103,12 +103,18 @@ class About extends React.Component
 					What is <span className = "special">OlymRepo.me</span> ?
 				</div>
 				<div className = "aboutpara">
-					OlymRepo.me is a collection of Olympiad 
+					OlymRepo is a collection of Olympiad 
 					problems from various competitions, countries and years.
-					It was designed in React JS and is my first real life project.
+					It is a Progressive Web Application designed in React <i class="devicon-react-original"> </i>
+					and is my first real life project.
 					OlymRepo.me is a work-in-progress.
 					Currently I plan on adding problems related to the Linguistics
 					Olympiad to the repository.
+					<br />
+					To download the application on mobile devices, open browser settings and click
+					on "Save to homescreen" 
+					<br />
+					Click on the title to get started.
 				</div>
 				<div className = "aboutheader">
 					Linguistics Olympiad
@@ -116,12 +122,12 @@ class About extends React.Component
 				<div className = "aboutpara">
 					I expect to add problems from the following competitions.
 					<ul>
-						<li>The International Linguistics Olympiad(<Emoji name = "world" />)</li>
-						<li>The Panini Linguistics Olympiad(<Emoji name = "india" />)</li>
-						<li>The North American Computational Linguistics Olympiad(<Emoji name = "usa" />+<Emoji name = "canada" />)</li>
-						<li>The All Ireland Linguistics Olympiad(<Emoji name = "ireland" />)</li>
-						<li>The United Kingdom Linguistics Olympiad(<Emoji name = "uk" />)</li>
-						<li>The Australian Computational Linguistics Olympiad(<Emoji name = "australia" />)</li>
+						<li><a href = "https://ioling.org">The International Linguistics Olympiad</a>(<Emoji name = "world" />)</li>
+						<li><a href = "https://ltrc.iiit.ac.in/nlpmt/plo/#/">The Panini Linguistics Olympiad</a>(<Emoji name = "india" />)</li>
+						<li><a href = "https://nacloweb.org/">The North American Computational Linguistics Olympiad</a>(<Emoji name = "usa" />+<Emoji name = "canada" />)</li>
+						<li><a href = "">The All Ireland Linguistics Olympiad</a>(<Emoji name = "ireland" />)</li>
+						<li><a href = "">The United Kingdom Linguistics Olympiad</a>(<Emoji name = "uk" />)</li>
+						<li><a href = "">The Australian Computational Linguistics Olympiad</a>(<Emoji name = "australia" />)</li>
 					</ul>
 				</div>
 				<div className = "aboutheader">
@@ -154,8 +160,8 @@ class ContentManager extends React.Component
 	{
 		super(props)
 		this.state = {
-			isAbout: false,
-			display: <Navigator />
+			isAbout: true,
+			display: <About />
 		}
 	this.handleClick = this.handleClick.bind(this);
 	
