@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/51557e83-0477-4618-a1f7-a99742d5c29b/deploy-status)](https://app.netlify.com/sites/olymrepo/deploys)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## IMPORTANT NOTE
